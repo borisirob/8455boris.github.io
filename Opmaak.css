@@ -1,6 +1,6 @@
 body { background-image: url(Lego-achtergrond2.jpg); /*achtergrond nog toevoegen */
 background-position: top;
-background-attachment: fixed;
+background-attachment: scroll;
 background-size: 100%;
 margin-right: 50px;
 
