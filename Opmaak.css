@@ -1,0 +1,187 @@
+body { background-image: url(Lego-achtergrond2.jpg); /*achtergrond nog toevoegen */
+background-position: top;
+background-attachment: fixed;
+background-size: 100%;
+margin-right: 50px;
+z-index: -2;
+}
+
+.splash{
+  position: fixed;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  z-index: 200;
+  color: white;
+  text-align: center;
+  line-height: 90vh;
+}
+.splash.display-none{
+  position: fixed;
+  opacity: 0;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  z-index: -10;
+  color: white;
+  text-align: center;
+  line-height: 90vh;
+  transition: all 2.5s;
+}
+@keyframes fadeIn{
+  to{
+    opacity: 1;
+  }
+}
+.fade-in{
+  opacity: 0;
+  animation: fadeIn 1s ease-in forwards;
+}
+h1.Hoofd-style { Color: rgba(255,255,0,1); text-align: center;}
+
+h2.hoofd-style1 {font-family:  Verdana, Geneva, sans-serif;
+ Color: rgba(255,255,0,0.7); text-align: right;
+margin-left: 1000px;
+font-size: ;
+ border: 2px bottom;
+ border-radius: 5px;
+border-color: rgba(255,255,0,1)}
+
+h2.paragraaf-style3 {font-family:  Verdana, Geneva, sans-serif;
+ Color: rgba(255,255,0,0.7);
+text-align: Left;
+margin-left: 253px;
+}
+p.paragraaf-style3 {font-family:  Verdana, Geneva, sans-serif;
+ Color: rgba(255,255,0,0.7); text-align: left;
+ margin-left: 253px;
+}
+p.paragraaf-style4 {font-family:  Verdana, Geneva, sans-serif;
+ Color: rgba(255,255,0,0.7); text-align: left;
+ margin-left: 243px; }
+p.paragraaf-style {font-family:   Verdana, Geneva, sans-serif;
+ Color: rgba(255,255,0,0.7); text-align: right;
+margin-left: 1200px;
+font-size: ;
+ border: 2px solid;
+ border-radius: 5px;
+border-color: rgba(255,255,0,1)}
+p.paragraaf-styleindex {
+font-family:   Verdana, Geneva, sans-serif;
+ Color: rgba(255,255,0,0.7);
+  text-align: center;}
+
+ p.paragraaf-style2 {font-family:   Verdana, Geneva, sans-serif;
+  Color: rgba(255,255,0,0.7); text-align: right;
+ margin-left: 860px;
+ font-size: ;
+}
+
+a { font-family:  Verdana, Geneva, sans-serif;
+  color: rgba(255,255,0,0.7); text-decoration: none;
+   }
+  a:hover { color: #666; text-decoration: none; }
+ ul.lijst {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   width: 13%;
+   background-color:  rgba(255,0,0,0.5);
+   position: fixed;
+   height: 100%;
+   overflow: auto;
+ }
+ li a {
+   display: block;
+   color: rgba(255,255,0,1);
+   padding: 8px 16px;
+   text-decoration: none;
+
+ }
+ li a.active {
+  background-color: rgba(255,255,0,0.5);
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: rgba(255,255,0,0.3);
+  color: white;
+
+  }
+img.afbeelding1 {
+  position:relative;
+  left: 1000px;
+  border-radius: 15px
+}
+th {
+  cursor: pointer;
+}
+table, th, td {
+
+  font-family:  Verdana, Geneva, sans-serif;
+}
+ul.lijst2 {
+  list-style-type: none;
+  margin: 500;
+  padding: 0;
+  width: 13%;}
+
+
+
+*{
+  box-sizing: border-box;
+}
+
+.row {
+  margin-left:-5px;
+  margin-right:-5px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 8px;
+}
+
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 50%;
+  border: 1px solid ;
+  position: relative;
+  left: 253px;
+  z-index: ;
+}
+
+th {
+  cursor: pointer;
+}
+
+th, td {
+  text-align: left;
+  padding: 10px;
+}
+tr:nth-child(even) {
+  background-color: rgba(255,0,0,0.5);
+}
+tr:nth-child(odd) {
+  background-color: rgba(255,255,0,0.5);
+}
+}
+
+
+
+/* voor nav bar https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_sidenav_push_opacity */
+
+/* tijdlijn voor pagina 2, https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_timeline */
