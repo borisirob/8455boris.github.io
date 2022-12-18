@@ -1,0 +1,219 @@
+body { background-image: url(Lego-achtergrond2.jpg);
+  background-position: top;
+  background-attachment: fixed;
+  background-size: 100%;
+  margin-right: 50px;
+  z-index: -2;
+  font-family: 'Inter', sans-serif;
+}
+.splash{
+  position: fixed;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0,0,0,1) url(lego-GIF1.gif) no-repeat center;
+  z-index: 4;
+
+  line-height: 90vh;
+}
+.splash.display-none{
+  position: fixed;
+  opacity: 0;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100vh;
+
+  z-index: -10;
+
+  line-height: 90vh;
+  transition: all 2.5s;
+}
+@keyframes fadeIn{
+  to{
+    opacity: 1;
+  }
+}
+.fade-in{
+  opacity: 0;
+  animation: fadeIn 1.5s ease-in forwards;
+}
+h1.Hoofd-style { Color: rgba(255,255,0,1); text-align: center;}
+h2.hoofd-style1 {
+    Color: rgba(255,255,0,0.7); text-align: right;
+    margin-left: 1000px;
+    font-size: ;
+  border: 2px bottom;
+  border-radius: 5px;
+  border-color: rgba(255,255,0,1)}
+h2.paragraaf-style3 {
+  Color: rgba(255,255,0,1);
+  text-align: Left;
+  margin-left: 253px;}
+p.paragraaf-style3 {
+ Color: rgba(255,255,0,0.7); text-align: left;
+ margin-left: 253px;
+}
+p.paragraaf-style4 {
+  font-size: 120%;
+ Color: rgba(255,255,0,0.7); text-align: left;
+ margin-left: 243px; }
+p.paragraaf-style {
+  Color: rgba(255,255,0,0.7); text-align: right;
+  margin-left: 1200px;
+  font-size: ;
+ border: 2px solid;
+ border-radius: 5px;
+ border-color: rgba(255,255,0,1)}
+p.paragraaf-styleindex {
+  Color: rgba(255,255,0,0.7);
+  text-align: center;}
+
+ p.paragraaf-style2 {
+   Color: rgba(255,255,0,0.7); text-align: right;
+   margin-left: 860px;
+   font-size: ;}
+a.Linkspagina3  {
+  color: rgba(255,255,0,0.7); text-decoration: none;
+   }
+a.inhoud  {
+  color: rgba(255,255,0,0.7); text-decoration: none;
+   }
+   a:hover { color: #666; text-decoration: none; }
+ ul.lijst {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   width: 13%;
+   background-color:  rgba(255,0,0,0.5);
+   position: fixed;
+   height: 100%;
+   overflow: auto;
+
+ }
+ li a.inhoud {
+   display: block;
+   color: rgba(255,255,0,1);
+   padding: 8px 16px;
+   text-decoration: none;
+   cursor: pointer;
+ }
+ li a.active {
+  background-color: rgba(255,255,0,0.5);
+  color: white;
+  display: block;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+li a:hover:not(.active)(.top10sets) {
+  background-color: rgba(255,255,0,0.3);
+  color: white;
+
+  }
+img.afbeelding1 {
+  position:relative;
+  left: 1000px;
+  border-radius: 15px
+}
+img.collectie1 {
+  position: relative;
+  left: 30vh;
+  border-radius: 10px;
+
+  z-index:3;
+  cursor: pointer;
+  -webkit-transition-property: all;
+  -webkit-transition-duration: 0.5s;
+  -webkit-transition-timing-function: ease;}
+  .collectie1:hover {
+    transform: scale(2);
+    z-index:4;}
+button{
+  border-color:  rgba(255,0,0,0.8);
+   color: yellow;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+    cursor: pointer;
+    position: relative;
+    background-color:  rgba(255,0,0,0.5);
+    z-index: 5;
+}
+button.button1 {
+  left:45vh;
+}
+button.button2{
+  left: 120vh;
+}
+button.button3{
+  left: 60vh;
+}
+button.button4{
+  left:105vh;
+}
+button.button5{
+  left:75vh;
+}
+button.button6{
+  left:90vh;
+}
+button.button7{
+  left: 90vh;
+}
+.afbeelding9{
+  position: relative;
+  left: 150vh;
+
+}
+.top10sets{
+ color: rgba(255,255,0,1);
+
+
+}
+ol.top10setslijst{
+  border: 0px black solid;
+  width: 50%;
+  margin-left: 243px;
+  list-style-type: disc;
+}
+.row {
+  margin-left:-5px;
+  margin-right:-5px;
+
+}
+.column {
+  float: left;
+  width: 50%;
+  padding: 8px;
+    box-sizing: border-box;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 50%;
+  border: 1px solid ;
+  position: relative;
+  left: 253px;
+  z-index: ;
+
+}
+th, td {
+  text-align: left;
+  padding: 10px;
+
+}
+tr:nth-child(even) {
+  background-color: rgba(255,0,0,0.5);
+}
+tr:nth-child(odd) {
+  background-color: rgba(255,255,0,0.5);
+}
